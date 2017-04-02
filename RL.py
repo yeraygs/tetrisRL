@@ -55,6 +55,8 @@ def features(board, prevLines, bricksLastPiece, altitudeLast, weights, nCnt, fea
 		for w in xrange(0,len(contour)-1):
 			diffHeight[w] = contour[w+1] - contour[w]
 
+
+
 		maxDepthWell = 0
 		cntWell      = 0
 		depthCnt     = 0
